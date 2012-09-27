@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>UC Berkeley - Data Services</title>
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css')}}">
+</head>
+<body>
+    <h1><a href="{{ url_for("index") }}">Data Services</a></h1>
+{% block content %}
+    <p>Default content to be displayed</p>
+{% endblock content %}
+</body>
+</html>
